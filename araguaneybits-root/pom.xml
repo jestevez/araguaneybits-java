@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.araguaneybits.trueque</groupId>
+	<artifactId>araguaneybits-root</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Araguaneybits ROOT project</name>
+	<description>Araguaneybits : ROOT project</description>
+	<developers>
+		<developer>
+			<id>jestevez</id>
+			<name>Jose Luis Estevez</name>
+			<email>jose.estevez.prieto@gmail.com</email>
+			<roles>
+				<role>Team Leader</role>
+				<role>Systems Analyst</role>
+				<role>Programmer</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<modules>
+		<module>../araguaneybits-commons</module>
+		<module>../araguaneybits-database</module>
+		<module>../araguaneybits-dao</module>
+		<module>../araguaneybits-crypto</module>
+		<module>../araguaneybits-tools</module>
+		<module>../araguaneybits-services</module>
+		<module>../araguaneybits-wallet</module>
+	</modules>
+	<properties>
+		<!-- versions -->
+		<spring.framework.version>4.3.21.RELEASE</spring.framework.version>
+		<spring.integration.version>4.3.18.RELEASE</spring.integration.version>
+		<spring.security.version>4.2.10.RELEASE</spring.security.version>
+		<spring.security.oauth2.version>2.0.17.RELEASE</spring.security.oauth2.version>
+		<jersey.version>2.6</jersey.version>
+		<jackson.version>2.9.9</jackson.version>
+		<jackson-databind.version>2.9.9.2</jackson-databind.version>
+		<quartz.version>2.2.1</quartz.version>
+		<org.aspectj-version>1.6.9</org.aspectj-version>
+		<commons.lang3>3.1</commons.lang3>
+		<commons.io>2.6</commons.io>
+		<commons.dbcp2>2.5.0</commons.dbcp2>
+		<postgresql.version>42.2.5</postgresql.version>
+		<slf4j.version>1.7.25</slf4j.version>
+		<logback.version>1.0.13</logback.version>
+		<okhttp.version>3.8.1</okhttp.version>
+		<javax.servlet.version>3.1.0</javax.servlet.version>
+		<javax.servlet.jsp.version>2.3.1</javax.servlet.jsp.version>
+		<web3j.version>4.2.0</web3j.version>
+		<!-- versions testing -->
+		<junit.version>4.12</junit.version>
+		<mockito.version>1.10.19</mockito.version>
+<!-- 		<maven.test.skip>true</maven.test.skip> -->
+		<!-- setting -->
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+	</dependencies>
+	<build>
+	</build>
+
+</project>
