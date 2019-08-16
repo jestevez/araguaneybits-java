@@ -13,12 +13,11 @@
     <description>Araguaneybits : Wallet project</description>
 
     <properties>
-        <skipTests>true</skipTests>
 
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.framework.version>5.1.2.RELEASE</spring.framework.version>
-        <spring.security.version>5.1.2.RELEASE</spring.security.version>
+        <spring.security.version>5.1.5.RELEASE</spring.security.version>
         <primefaces.version>7.0</primefaces.version>
         <mojarra.version>2.3.2</mojarra.version>
         <jersey.version>2.6</jersey.version>
@@ -324,18 +323,6 @@
             <version>2.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.0.13</version>
-            <scope>runtime</scope>
-        </dependency>
-        
         <dependency>
             <groupId>com.github.adminfaces</groupId>
             <artifactId>admin-theme</artifactId>
