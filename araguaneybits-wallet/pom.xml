@@ -16,7 +16,7 @@
 
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.framework.version>5.2.3.RELEASE</spring.framework.version>
+        <spring.framework.version>5.3.14</spring.framework.version>
         <spring.security.version>5.1.5.RELEASE</spring.security.version>
         <primefaces.version>7.0</primefaces.version>
         <mojarra.version>2.3.2</mojarra.version>
